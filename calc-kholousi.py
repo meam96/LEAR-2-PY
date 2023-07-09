@@ -1,0 +1,1 @@
+r = eval(input("Enter an expression: ")) ; print(r)
