@@ -1,11 +1,13 @@
-l=[1, 2, 'b', 'v',"k"]
+l=[1, 2, 'b', 'v',"k","j"]
 def filter_list(l):
+    new_list=[]
     for i in l:
-        print(i)
         c = type(i)
         if c==int:
-            l.remove(i) 
-    print(l)
+            new_list.append(i)
+        else:
+            continue 
+    print(new_list)
 
 filter_list(l)
         
